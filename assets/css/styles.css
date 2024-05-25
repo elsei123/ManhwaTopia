@@ -1,0 +1,51 @@
+/* Estilos para dispositivos de tela pequena */
+@media only screen and (max-width: 600px) {
+    /* Comentário: Adicione estilos específicos para dispositivos móveis, se necessário */
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Fundo claro */
+    color: #343a40; /* Texto escuro */
+    padding: 0;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #343a40; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Exemplo de animação para o cabeçalho */
+}
+header:hover {
+    background-color: #555; /* Mudança de cor ao passar o mouse */
+}
+
+/* Menu de Navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* Outros estilos conforme necessário */
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
